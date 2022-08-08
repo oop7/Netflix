@@ -21,16 +21,6 @@ body {
 .container .logo img {
   width: 12%;
 }
-.container .logo a {
-  color: white;
-  text-decoration: none;
-  background-color: red;
-  padding: 12px 25px;
-  border-radius: 5px;
-  float: right;
-  position: relative;
-  left: 780px;
-}
 .banner {
   width: 100%;
   height: 100vh;
@@ -139,6 +129,7 @@ body {
 }
 
 .part1 .img {
+  float: right;
   position: relative;
   left: 200px;
   z-index: 1;
@@ -159,8 +150,9 @@ body {
   left: 120px;
 }
 .part1 .video1 {
+  float: right;
   position: relative;
-  right: 125px;
+  right: 215px;
   bottom: 7px;
 }
 .part2 {
@@ -376,22 +368,27 @@ body {
   border-bottom: 1px solid white;
 }
 .right {
+  float: right;
   display: flex;
   position: relative;
-  right: 130px;
+  right: -170px;
   top: 50px;
   z-index: 111000;
 }
 .right .language {
-  align-items: center;
-  justify-content: center;
   font-size: 18px;
   padding: 12px 15px;
   color: white;
   background: none;
   cursor: pointer;
-  margin-bottom: 100px;
-  margin-right: 55px;
+}
+.right a{
+  text-decoration: none;
+  background-color: #e50914;
+  padding: 19px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 20px;
 }
 .right .language option {
   background-color: grey;
