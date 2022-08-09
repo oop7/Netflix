@@ -150,10 +150,9 @@ body {
   left: 120px;
 }
 .part1 .video1 {
-  float: right;
   position: relative;
-  right: 215px;
-  bottom: 7px;
+  right: 130px;
+  bottom: 6px;
 }
 .part2 {
   display: flex;
